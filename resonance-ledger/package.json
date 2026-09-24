@@ -1,0 +1,15 @@
+{
+  "name": "resonance-ledger",
+  "version": "0.1.0",
+  "description": "Signed, append-only archival and governance ledger: Ed25519 envelopes, Lamport clocks, quorum approvals, content-addressed artifacts.",
+  "type": "module",
+  "main": "src/cli.js",
+  "scripts": {
+    "test": "node --test tests/",
+    "ledger": "node src/cli.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@noble/ed25519": "2.3.0"
+  }
+}

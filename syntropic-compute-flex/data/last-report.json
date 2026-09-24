@@ -1,0 +1,23 @@
+{
+  "asset": "c-6ab48394-01ed1602-f4df96d7e213",
+  "testMode": "local authorized workload test",
+  "powerMeasurementSource": "NONE_CONFIGURED",
+  "baselinePowerW": null,
+  "powerAfterPolicyW": null,
+  "reductionW": null,
+  "timeToTargetS": 0.001,
+  "durationMin": 0.1,
+  "cpuUtilBaselinePct": 50.9,
+  "cpuUtilDuringControlPct": 1,
+  "workloadOutcome": "resumed then terminated cleanly",
+  "physicalGridClaim": "none",
+  "marketParticipation": "none",
+  "note": "Watts not reported: no authenticated meter source configured. CPU utilization deltas are real measurements; do not convert them into power claims.",
+  "pauseVerification": "OK_VERIFIED",
+  "postResumeProcState": "R",
+  "eventLog": "test-run-1790220846837.jsonl",
+  "eventLogIntegrity": {
+    "ok": true,
+    "records": 37
+  }
+}
